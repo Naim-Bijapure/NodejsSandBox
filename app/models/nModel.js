@@ -1,8 +1,14 @@
 import mongoose, { Schema, model } from 'mongoose'
 
 const nSchema = new Schema({
-       name:String,
-       data:String 
+       name:{type:String,unique:true },
+       data:String ,
+       myId:{
+           type:Number,
+           min:[5,'to low'],
+           max:[10,'to hight'],
+           required:[true]
+       }
 },{autoIndex:false});
 //user defined methods
 nSchema.methods.getData=function () {
@@ -19,7 +25,7 @@ nSchema.virtual('Thank').get(function () {
     return this.name+'  is awesome man thank you ' 
 });
 
-nSchema.set('timestamps',{createdAt:true});
+// nSchema.set('timestamps',{createdAt:true});
 
 const nModel=   model('nModel',nSchema); 
 export default nModel; 
