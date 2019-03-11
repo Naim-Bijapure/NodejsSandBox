@@ -12,7 +12,7 @@ Route.get('/add',(req,res)=>{
      }); 
 
    async function Add() {
-       try {
+       try  {
           const SavedData= await nData.save();
             
         console.log(SavedData);
