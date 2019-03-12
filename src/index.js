@@ -8,7 +8,7 @@ import fs from 'fs'
 var credentials = new AWS.SharedIniFileCredentials({profile: 'Naim7407'});
 AWS.config.credentials = credentials;
 // Create unique bucket name
-var bucketName = 'node-sdk-sample-' + uuid.v4();
+var bucketName = 'pronoob-7407-node-sdk-sample';
 // Create name for uploaded object key
 var keyName = 'index.html';
 var filePath=path.join(__dirname,'./index.html');
@@ -28,7 +28,7 @@ bucketPromise.then(
         if (err) throw err;
          myData+=data;
         var objectParams = {Bucket: bucketName,
-                             Key: keyName, Body: JSON.stringify(myData)
+                             Key: keyName, Body:myData
                             };
                             // Create object upload promise
        var uploadPromise = new AWS.S3({apiVersion: '2006-03-01'}).putObject(objectParams).promise();
