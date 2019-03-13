@@ -14,5 +14,6 @@ app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json());
 app.use('/n',Route);
 
-app.listen(3000,()=>{console.log('listinging at 3000');
+app.listen(3000,()=>{
+    console.log('listinging at 3000');
 });
