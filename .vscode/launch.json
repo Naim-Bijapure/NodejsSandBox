@@ -9,6 +9,17 @@
             "request": "launch",
             "name": "mongoose debug",
             "program": "${workspaceFolder}/src/index.js"
-        }
+        },
+
+{
+    "name": "Launch server.js via nodemon",
+    "type": "node",
+    "request": "launch",
+    "runtimeExecutable": "nodemon ",
+    "program": "${workspaceRoot}/src/index.js",
+    "restart": true,
+    "console": "externalTerminal",
+    "internalConsoleOptions": "neverOpen"
+}
     ]
 }
