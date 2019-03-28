@@ -1,4 +1,8 @@
-for (let index = 0; index < 5; index++) {
-         console.log(index);
-             
+let obj={
+    name:'naim'
 }
+let newObj =Object.create(obj );
+newObj.name="cool"
+obj
+newObj
+ 
