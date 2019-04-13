@@ -1,74 +1,73 @@
-// Create an array of objects which hold the denominations and their values
-var denom = [
-    { name: 'ONE HUNDRED', val: 100.00},
-    { name: 'TWENTY', val: 20.00},
-    { name: 'TEN', val: 10.00},
-    { name: 'FIVE', val: 5.00},
-    { name: 'ONE', val: 1.00},
-    { name: 'QUARTER', val: 0.25},
-    { name: 'DIME', val: 0.10},
-    { name: 'NICKEL', val: 0.05},
-    { name: 'PENNY', val: 0.01}
-  ];
-  
-  function checkCashRegister(price, cash, cid) {
-    var output = { status: null, change: [] };
-    var change = cash - price;
-  
-    // Transform CID array into drawer object
-    var register = cid.reduce(function(acc, curr) {
-      acc.total += curr[1];
-      acc[curr[0]] = curr[1];
-      return acc;
-    }, { total: 0 });
-  
-    // Handle exact change
-    if (register.total === change) {
-      output.status = 'CLOSED';
-      output.change = cid;
-      return output;
-    }
-  
-    // Handle obvious insufficient funds
-    if (register.total < change) {
-      output.status = 'INSUFFICIENT_FUNDS';
-      return output;
-    }
-  
-    // Loop through the denomination array
-    var change_arr = denom.reduce(function(acc, curr) {
-      var value = 0;
-      // While there is still money of this type in the drawer
-      // And while the denomination is larger than the change remaining
-      while (register[curr.name] > 0 && change >= curr.val) {
-        change -= curr.val;
-        register[curr.name] -= curr.val;
-        value += curr.val; 
-        
-  
-        // Round change to the nearest hundreth deals with precision errors
-        change = Math.round(change * 100) / 100;
+import {createStore, combineReducers,applyMiddleware} from 'redux'
+ 
+
+// reducer 
+function reducer1(state,action) {
+      switch (action.type) {
+        case 'add' :
+           return 'added state' 
+          break;
+
+        case 'remove':
+           return 'remove state' 
+         break;
+        default:
+          break;
       }
-      // Add this denomination to the output only if any was used.
-      if (value > 0) {
-          acc.push([ curr.name, value ]);
+     return "hello naim" 
+}
+
+function reducer2(state,action) {
+      switch (action.type) {
+        case 'N':
+           return 'cool N state' 
+          break;
+
+        case 'M':
+           return 'this is M state' 
+         break;
+        default:
+          break;
       }
-      return acc; // Return the current change_arr
-    }, []); // Initial value of empty array for reduce
+     return "hello naim" 
+}
+
+// ! my middleware
+function myMiddleMan(State) {
+   return next=>  action=>{
+     State.getState();/*?*/
+     action 
+     const returnedVal= next({type:'N'});
+     State.getState() ;/*?*/
+     
+     return returnedVal;
+   }
+}
+
+
+
+const combined= combineReducers({reducer1,reducer2});
+const store = createStore(combined,'',applyMiddleware(myMiddleMan));
+ 
+
+
+store.dispatch({type:'add'});
+store.getState() /*?*/
+
+function mySub() {
+  store.getState(); /*?*/
   
-    // If there are no elements in change_arr or we have leftover change, return
-    // the string "Insufficient Funds"
-    if (change_arr.length < 1 || change > 0) {
-      output.status = 'INSUFFICIENT_FUNDS';
-      return output;
-    }
-  
-    // Here is your change, ma'am.
-    output.status = 'OPEN';
-    output.change = change_arr;
-    return output; /*?*/
+    if(store.getState()=='added state'){
+       store.dispatch({type:'remove'}); 
+      return 'cool added man'
+    } 
     
-  }
-  
-  // test here
-  checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55.00], ["TEN", 20.00], ["TWENTY", 60.00], ["ONE HUNDRED", 100.00]]);
+}
+//  const unsub= store.subscribe(mySub);
+var a=  store.dispatch({type:'M'});
+store.getState().reducer2; /*?*/
+
+
+
+
+
