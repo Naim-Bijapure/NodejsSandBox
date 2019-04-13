@@ -1,73 +1,22 @@
-import {createStore, combineReducers,applyMiddleware} from 'redux'
+var app = require('express')();
+var http = require('http').createServer(app);
+const path = require('path');
+const io = require('socket.io')(http);
+
  
+let htmlPath= path.resolve(__dirname,'../public');
 
-// reducer 
-function reducer1(state,action) {
-      switch (action.type) {
-        case 'add' :
-           return 'added state' 
-          break;
+app.get('/', function(req, res){
+res.sendFile(htmlPath + '/index.html');
+});
 
-        case 'remove':
-           return 'remove state' 
-         break;
-        default:
-          break;
-      }
-     return "hello naim" 
-}
+io.on('connection', function(socket){
+    socket.on('chat message',(msg)=>{
+      
+      io.emit('chat message',msg);
+    });
+});
 
-function reducer2(state,action) {
-      switch (action.type) {
-        case 'N':
-           return 'cool N state' 
-          break;
-
-        case 'M':
-           return 'this is M state' 
-         break;
-        default:
-          break;
-      }
-     return "hello naim" 
-}
-
-// ! my middleware
-function myMiddleMan(State) {
-   return next=>  action=>{
-     State.getState();/*?*/
-     action 
-     const returnedVal= next({type:'N'});
-     State.getState() ;/*?*/
-     
-     return returnedVal;
-   }
-}
-
-
-
-const combined= combineReducers({reducer1,reducer2});
-const store = createStore(combined,'',applyMiddleware(myMiddleMan));
- 
-
-
-store.dispatch({type:'add'});
-store.getState() /*?*/
-
-function mySub() {
-  store.getState(); /*?*/
-  
-    if(store.getState()=='added state'){
-       store.dispatch({type:'remove'}); 
-      return 'cool added man'
-    } 
-    
-}
-//  const unsub= store.subscribe(mySub);
-var a=  store.dispatch({type:'M'});
-store.getState().reducer2; /*?*/
-
-
-
-
-
+http.listen(3000, function(){
+  console.log('listening on *:3000',htmlPath);
+});

@@ -17,6 +17,13 @@
     "@babel/preset-env": "^7.3.4"
   },
   "dependencies": {
-    "redux": "^4.0.1"
+    "express": "^4.16.4",
+    "redux": "^4.0.1",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "v11.11.0"
   }
+
+  
 }
