@@ -1,0 +1,134 @@
+[
+  {
+    "question_id": 1,
+    "sequence": "1",
+    "step_number": "STEP 1.1 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has conducted an information audit to map data flows.",
+    "description": "You should organise an information audit across your business or within particular business areas. One person with in-depth knowledge of your working practices may be able to do this.\n##This will identify the data that you process and how it flows into, through and out of your business.\n##Remember, an information flow can include a transfer of information from one location to another. For example, the information may stay within your business yet a transfer takes place because the department or other office is located elsewhere (off site).",
+    "suggestion": "You should:\n##\n##organise an information audit across your business or within particular business areas to identify the data that you process and how it flows into, through and out of your business;\n##ensure this is conducted by someone with in-depth knowledge of your working practices; and\n##identify and document any risks you have found, for example in a risk register.",
+    "option": "A. Not yet implemented or planned",
+    "mcq_id": 1
+  },
+  {
+    "question_id": 1,
+    "sequence": "1",
+    "step_number": "STEP 1.1 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has conducted an information audit to map data flows.",
+    "description": "You should organise an information audit across your business or within particular business areas. One person with in-depth knowledge of your working practices may be able to do this.\n##This will identify the data that you process and how it flows into, through and out of your business.\n##Remember, an information flow can include a transfer of information from one location to another. For example, the information may stay within your business yet a transfer takes place because the department or other office is located elsewhere (off site).",
+    "suggestion": "You should:\n##\n## organise an information audit across your business or within particular business\nareas to identify the data that you process and how it flows into, through and out of\nyour business;\n## ensure this is conducted by someone with in-depth knowledge of your working\npractices; and\n## identify and document any risks you have found, for example in a risk register.",
+    "option": "B. Partially implemented or planned",
+    "mcq_id": 2
+  },
+  {
+    "question_id": 1,
+    "sequence": "1",
+    "step_number": "STEP 1.1 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has conducted an information audit to map data flows.",
+    "description": "You should organise an information audit across your business or within particular business areas. One person with in-depth knowledge of your working practices may be able to do this.\n##This will identify the data that you process and how it flows into, through and out of your business.\n##Remember, an information flow can include a transfer of information from one location to another. For example, the information may stay within your business yet a transfer takes place because the department or other office is located elsewhere (off site).",
+    "suggestion": "",
+    "option": "C. Successfully implemented",
+    "mcq_id": 3
+  },
+  {
+    "question_id": 1,
+    "sequence": "1",
+    "step_number": "STEP 1.1 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has conducted an information audit to map data flows.",
+    "description": "You should organise an information audit across your business or within particular business areas. One person with in-depth knowledge of your working practices may be able to do this.\n##This will identify the data that you process and how it flows into, through and out of your business.\n##Remember, an information flow can include a transfer of information from one location to another. For example, the information may stay within your business yet a transfer takes place because the department or other office is located elsewhere (off site).",
+    "suggestion": "",
+    "option": "D. Not applicable ",
+    "mcq_id": 4
+  },
+  {
+    "question_id": 2,
+    "sequence": "2",
+    "step_number": "STEP 1.1 A - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has documented what personal data you hold, where it came from, who you share it with and what you do with it.",
+    "description": "Once you have completed your information audit, you should document your findings, for example in an information asset register.\n##Doing this will also help you to comply with the GDPR’s accountability principle. This requires your business to be able to show how you comply with the GDPR principles, for example by having effective procedures and guidance for staff.\n##You must record:\n##* the name and details of your business, each controller you are acting on behalf of, and the controllers’ representative (if relevant), your representative and the data protection officer); * categories of the processing carried out on behalf of each controller; * details of transfers to third countries including documentation of the transfer mechanism safeguards in place, if applicable; and * where possible, a general description of technical and organisational security measures.\n##If you have fewer than 250 employees you only need to keep these records for processing activities that:\n##* are not occasional; * could result in a risk to the rights and freedoms of individuals; or * involve the processing of special categories of data or criminal conviction and offence data.\n##You may be required to make these records available to the ICO on request.",
+    "suggestion": "You should:\n##\n##maintain records of processing activities detailing what personal data you hold, where it came from, who you share it with and what you do with it. This will vary depending on the size of your business;\n##consider using an information asset register to do this; and\n##ensure you have procedures to guide staff on how to manage information you hold.",
+    "option": "A. Not yet implemented or planned",
+    "mcq_id": 5
+  },
+  {
+    "question_id": 2,
+    "sequence": "2",
+    "step_number": "STEP 1.1 A - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has documented what personal data you hold, where it came from, who you share it with and what you do with it.",
+    "description": "Once you have completed your information audit, you should document your findings, for example in an information asset register.\n##Doing this will also help you to comply with the GDPR’s accountability principle. This requires your business to be able to show how you comply with the GDPR principles, for example by having effective procedures and guidance for staff.\n##You must record:\n##* the name and details of your business, each controller you are acting on behalf of, and the controllers’ representative (if relevant), your representative and the data protection officer); * categories of the processing carried out on behalf of each controller; * details of transfers to third countries including documentation of the transfer mechanism safeguards in place, if applicable; and * where possible, a general description of technical and organisational security measures.\n##If you have fewer than 250 employees you only need to keep these records for processing activities that:\n##* are not occasional; * could result in a risk to the rights and freedoms of individuals; or * involve the processing of special categories of data or criminal conviction and offence data.\n##You may be required to make these records available to the ICO on request.",
+    "suggestion": "You should:\n##\n## maintain records of processing activities detailing what personal data you hold,\nwhere it came from, who you share it with and what you do with it. This will vary\ndepending on the size of your business;\n## consider using an information asset register to do this; and\n## ensure you have procedures to guide staff on how to manage information you hold.",
+    "option": "B. Partially implemented or planned",
+    "mcq_id": 6
+  },
+  {
+    "question_id": 2,
+    "sequence": "2",
+    "step_number": "STEP 1.1 A - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has documented what personal data you hold, where it came from, who you share it with and what you do with it.",
+    "description": "Once you have completed your information audit, you should document your findings, for example in an information asset register.\n##Doing this will also help you to comply with the GDPR’s accountability principle. This requires your business to be able to show how you comply with the GDPR principles, for example by having effective procedures and guidance for staff.\n##You must record:\n##* the name and details of your business, each controller you are acting on behalf of, and the controllers’ representative (if relevant), your representative and the data protection officer); * categories of the processing carried out on behalf of each controller; * details of transfers to third countries including documentation of the transfer mechanism safeguards in place, if applicable; and * where possible, a general description of technical and organisational security measures.\n##If you have fewer than 250 employees you only need to keep these records for processing activities that:\n##* are not occasional; * could result in a risk to the rights and freedoms of individuals; or * involve the processing of special categories of data or criminal conviction and offence data.\n##You may be required to make these records available to the ICO on request.",
+    "suggestion": "",
+    "option": "C. Successfully implemented",
+    "mcq_id": 7
+  },
+  {
+    "question_id": 2,
+    "sequence": "2",
+    "step_number": "STEP 1.1 A - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Your business has documented what personal data you hold, where it came from, who you share it with and what you do with it.",
+    "description": "Once you have completed your information audit, you should document your findings, for example in an information asset register.\n##Doing this will also help you to comply with the GDPR’s accountability principle. This requires your business to be able to show how you comply with the GDPR principles, for example by having effective procedures and guidance for staff.\n##You must record:\n##* the name and details of your business, each controller you are acting on behalf of, and the controllers’ representative (if relevant), your representative and the data protection officer); * categories of the processing carried out on behalf of each controller; * details of transfers to third countries including documentation of the transfer mechanism safeguards in place, if applicable; and * where possible, a general description of technical and organisational security measures.\n##If you have fewer than 250 employees you only need to keep these records for processing activities that:\n##* are not occasional; * could result in a risk to the rights and freedoms of individuals; or * involve the processing of special categories of data or criminal conviction and offence data.\n##You may be required to make these records available to the ICO on request.",
+    "suggestion": "",
+    "option": "D. Not applicable ",
+    "mcq_id": 8
+  },
+  {
+    "question_id": 3,
+    "sequence": "3",
+    "step_number": "STEP 1.2 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Lawful basis for processing personal data - Your business has identified your lawful bases for processing and documented them",
+    "description": "You need to identify your lawful basis before you can process personal data.\n##There are six available lawful bases for processing. No single basis is better or more important than the others. The basis that is most appropriate will depend on your purpose for processing and relationship with the individual.\n##In summary, the six lawful bases are: (a) Consent: the individual has given clear consent for you to process their personal data for a specific purpose. (b) Contract: the processing is necessary for a contract you have with the individual, or because they have asked you to take specific steps before entering into a contract. (c) Legal obligation: the processing is necessary for you to comply with the law (not including contractual obligations). (d) Vital interests: the processing is necessary to protect someone’s life. (e) Public task: the processing is necessary for you to perform a task in the public interest or for your official functions, and the task or function has a clear basis in law. (f) Legitimate interests: the processing is necessary for your legitimate interests or the legitimate interests of a third party unless there is a good reason to protect the individual’s personal data which overrides those legitimate interests. (This cannot apply if you are a public authority processing data to perform your official tasks.)\n##If you are processing special category data or criminal offence data you need to identify both a lawful basis for general processing and an additional condition (Article 9 condition) for processing this type of data. You need to give individuals information about how you intend to process their personal data and what your lawful basis is for doing so.",
+    "suggestion": "You should:\n##\n##look at the various types of data processing you carry out;\n##identify your lawful bases for carrying it out; and\n##document it, for example in your privacy information.",
+    "option": "A. Not yet implemented or planned",
+    "mcq_id": 9
+  },
+  {
+    "question_id": 3,
+    "sequence": "3",
+    "step_number": "STEP 1.2 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Lawful basis for processing personal data - Your business has identified your lawful bases for processing and documented them",
+    "description": "You need to identify your lawful basis before you can process personal data.\n##There are six available lawful bases for processing. No single basis is better or more important than the others. The basis that is most appropriate will depend on your purpose for processing and relationship with the individual.\n##In summary, the six lawful bases are: (a) Consent: the individual has given clear consent for you to process their personal data for a specific purpose. (b) Contract: the processing is necessary for a contract you have with the individual, or because they have asked you to take specific steps before entering into a contract. (c) Legal obligation: the processing is necessary for you to comply with the law (not including contractual obligations). (d) Vital interests: the processing is necessary to protect someone’s life. (e) Public task: the processing is necessary for you to perform a task in the public interest or for your official functions, and the task or function has a clear basis in law. (f) Legitimate interests: the processing is necessary for your legitimate interests or the legitimate interests of a third party unless there is a good reason to protect the individual’s personal data which overrides those legitimate interests. (This cannot apply if you are a public authority processing data to perform your official tasks.)\n##If you are processing special category data or criminal offence data you need to identify both a lawful basis for general processing and an additional condition (Article 9 condition) for processing this type of data. You need to give individuals information about how you intend to process their personal data and what your lawful basis is for doing so.",
+    "suggestion": "You should;\n##\n##look at the various types of data processing you carry out;\n##identify your lawful bases for carrying it out; and\n##document it, for example in your privacy information.",
+    "option": "B. Partially implemented or planned",
+    "mcq_id": 10
+  },
+  {
+    "question_id": 3,
+    "sequence": "3",
+    "step_number": "STEP 1.2 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Lawful basis for processing personal data - Your business has identified your lawful bases for processing and documented them",
+    "description": "You need to identify your lawful basis before you can process personal data.\n##There are six available lawful bases for processing. No single basis is better or more important than the others. The basis that is most appropriate will depend on your purpose for processing and relationship with the individual.\n##In summary, the six lawful bases are: (a) Consent: the individual has given clear consent for you to process their personal data for a specific purpose. (b) Contract: the processing is necessary for a contract you have with the individual, or because they have asked you to take specific steps before entering into a contract. (c) Legal obligation: the processing is necessary for you to comply with the law (not including contractual obligations). (d) Vital interests: the processing is necessary to protect someone’s life. (e) Public task: the processing is necessary for you to perform a task in the public interest or for your official functions, and the task or function has a clear basis in law. (f) Legitimate interests: the processing is necessary for your legitimate interests or the legitimate interests of a third party unless there is a good reason to protect the individual’s personal data which overrides those legitimate interests. (This cannot apply if you are a public authority processing data to perform your official tasks.)\n##If you are processing special category data or criminal offence data you need to identify both a lawful basis for general processing and an additional condition (Article 9 condition) for processing this type of data. You need to give individuals information about how you intend to process their personal data and what your lawful basis is for doing so.",
+    "suggestion": "",
+    "option": "C. Successfully implemented",
+    "mcq_id": 11
+  },
+  {
+    "question_id": 3,
+    "sequence": "3",
+    "step_number": "STEP 1.2 - ",
+    "category": "Step 1 of 4: Lawfulness, fairness and transparency",
+    "title": "Lawful basis for processing personal data - Your business has identified your lawful bases for processing and documented them",
+    "description": "You need to identify your lawful basis before you can process personal data.\n##There are six available lawful bases for processing. No single basis is better or more important than the others. The basis that is most appropriate will depend on your purpose for processing and relationship with the individual.\n##In summary, the six lawful bases are: (a) Consent: the individual has given clear consent for you to process their personal data for a specific purpose. (b) Contract: the processing is necessary for a contract you have with the individual, or because they have asked you to take specific steps before entering into a contract. (c) Legal obligation: the processing is necessary for you to comply with the law (not including contractual obligations). (d) Vital interests: the processing is necessary to protect someone’s life. (e) Public task: the processing is necessary for you to perform a task in the public interest or for your official functions, and the task or function has a clear basis in law. (f) Legitimate interests: the processing is necessary for your legitimate interests or the legitimate interests of a third party unless there is a good reason to protect the individual’s personal data which overrides those legitimate interests. (This cannot apply if you are a public authority processing data to perform your official tasks.)\n##If you are processing special category data or criminal offence data you need to identify both a lawful basis for general processing and an additional condition (Article 9 condition) for processing this type of data. You need to give individuals information about how you intend to process their personal data and what your lawful basis is for doing so.",
+    "suggestion": "",
+    "option": "D. Not applicable ",
+    "mcq_id": 12
+  }
+]
